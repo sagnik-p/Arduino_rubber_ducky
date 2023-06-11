@@ -1,7 +1,7 @@
 # Arduino_rubber_ducky
 This repo contains all the firmware files needed to make a USB rubber ducky / hid device / bad usb with an arduino uno board
 
-
+You need to have Arduino IDE (latest recommended) From here:[Arduino Website](https://www.arduino.cc/en/software)
 You need to download ATMEL FLIP software [click here](https://www.microchip.com/en-us/development-tool/FLIP)
 This software uploads the .hex firmware file to the arduino
 
