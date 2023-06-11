@@ -15,12 +15,10 @@ You need to download ATMEL FLIP software [click here](https://www.microchip.com/
 5. upload the firmware and unplug the Arduino UNO
 6. The ARDUINO UNO is HOT AND READY TO ENGAGE! Be careful
 7. If you want to reprogram, plug it into the usb port after temporarily bridging the ground and reset pins
-
-
-
 ## DISCLAIMER
+>By using this Repo, You agree that
 '''
-This is for educational Purposes only
+#This is for educational Purposes only
 # I am not responsible for anything that you do with the contents of this repo
-By using this Repo, you agree that you will be responsible for whatever happens with this
+# you agree that you will be responsible for whatever happens with this
 '''
