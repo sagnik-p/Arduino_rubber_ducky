@@ -10,8 +10,8 @@ You need to download ATMEL FLIP software [click here](https://www.microchip.com/
 2. Set the Arduino UNO to DFU mode by momentarily bridging the ground and reset pins
 3. The lights should flicker. This means that firmware can now be uploaded
 4. Select the firmware
-    hid firmware file --> for use as rubber ducky
-    normal firmware file --> for use as normal Arduino UNO
+    hid firmware file ---> for use as rubber ducky
+    normal firmware file ---> for use as normal Arduino UNO
 5. upload the firmware and unplug the Arduino UNO
 6. The ARDUINO UNO is HOT AND READY TO ENGAGE! Be careful
 7. If you want to reprogram, plug it into the usb port after temporarily bridging the ground and reset pins
