@@ -18,7 +18,7 @@ You need to download ATMEL FLIP software [click here](https://www.microchip.com/
 ## DISCLAIMER
 >By using this Repo, You agree that
 '''
-#This is for educational Purposes only
+# This is for educational Purposes only
 # I am not responsible for anything that you do with the contents of this repo
 # you agree that you will be responsible for whatever happens with this
 '''
