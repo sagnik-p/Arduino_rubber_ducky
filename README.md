@@ -3,9 +3,23 @@ USB Rubber ducky is an HID device that looks similar to a USB Pen drive. It may 
 ## HID?
 HID stands for Human Interface Devices, it includes devices like keyboard, mouse, joystick. which acts as an interface between the computer and human beings. That is why it cannot get detected as the computer thinks its an interface.
 
+# what is the difference between an actual rubber ducky and arduino rubber ducky?
+1. Actual rubber ducky is more stealthy, looks just like a usb pendrive
+2. Actual rubber ducky is much faster. However, speed won't matter much since the size of payloads is small usually
+3. Code has to be stored on an micro SD card in the actual thing, so it can be easily updated/changed
+
+
+## Advantages:
+1. CHEAPER
+2. You make something on your own rather than buying something
+3. Arduino Rubber Ducky(s) can be reused as a normal arduino
+
+'''
+This is to demonstrate the working, this is a good alternative to the actual rubber ducky in most of the cases (except the fact that it does not look like a pen drive)
+This is for eduational purpose only
+'''
 # Arduino_rubber_ducky
 This repo contains all the firmware files needed to make a USB rubber ducky / hid device / bad usb with an arduino uno board
-
 You need to have Arduino IDE (latest recommended) From the official [Arduino Website](https://www.arduino.cc/en/software)
 You need to download ATMEL FLIP software [click here](https://www.microchip.com/en-us/development-tool/FLIP)
 >This software uploads the .hex firmware file to the arduino
@@ -26,12 +40,14 @@ You need to download ATMEL FLIP software [click here](https://www.microchip.com/
 Once the firware is updated, it will keep entering keystrokes unless the payload is successfully injected or until you put the arduino into DFU mode.
 So basically it will always be active and ready to engage UNLESS you put it into DFU mode
 Even if you try to reprogram it, it will execute the payload
+
 # TO SOLVE THIS PROBLEM,
 plug the arduino into the usb board and immediately enter into DFU mode by momentarily connecting ground and reset pins
 Now upload the normal firmware for uno using the ATMEL FLIP software only
 >Do not open the arduino ide, first update the firmware in order to reprogram it
 Now this arduino can be used for other projects and is just like any Arduino UNO board cute and harmless :)
 ## DISCLAIMER
+
 >By using this Repo, You agree that
 '''
 # This is for educational Purposes only
