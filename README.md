@@ -1,18 +1,18 @@
-## What is A rubber ducky?
-USB Rubber ducky is an HID device that looks similar to a USB Pen drive. It may be used to inject keystroke into a system, used to hack a system, steal victims essential and credential data can inject payload to the victim’s computers. The main important thing about USB Rubber ducky is that it cannot be detected by any Anti-Virus or Firewall as it acts as an HID device.
-## HID?
-HID stands for Human Interface Devices, it includes devices like keyboard, mouse, joystick. which acts as an interface between the computer and human beings. That is why it cannot get detected as the computer thinks its an interface.
+## What is a rubber ducky you ask?
+
+USB Rubber ducky is an HID (Human Interface Device ) that looks similar to a USB Pen drive. HIDs include anything that is an interface between a computer and a human, such as keyboards, joystick, graphic tablet and moulse. By default, a computer always allows an HID device, because it thinks that it is a keyboard, mouse or something similar.
+What a Rubber ducky does is, it exploits this trust. It is used to inject keystroke into a system, used to hack a system, steal victims essential and credential data can inject payload to the victim’s computers. The main important thing about USB Rubber ducky is that it cannot be detected by any Anti-Virus or Firewall as it acts as an HID device.
 
 # what is the difference between an actual rubber ducky and arduino rubber ducky?
 1. Actual rubber ducky is more stealthy, looks just like a usb pendrive
-2. Actual rubber ducky is much faster. However, speed won't matter much since the size of payloads is small usually
-3. Code has to be stored on an micro SD card in the actual thing, so it can be easily updated/changed
+2. Actual rubber ducky is much faster. However, speed won't matter much since the size of payloads is small in most of the cases.
+3. Code has to be stored on an micro SD card in the actual thing, so it can be easily updated/changed, whereas in this case, changing the payload is a tedious task and requires more time.
 
 
 ## Advantages:
 1. CHEAPER
-2. You make something on your own rather than buying something
-3. Arduino Rubber Ducky(s) can be reused as a normal arduino
+2. You make something on your own rather than buying something, making something yourself is always better since it teaches a lot, and you can customize it.
+3. Arduino Rubber Ducky(s) can be reused as a normal arduino later, so no arduinos go to waste.
 
 '''
 This is to demonstrate the working, this is a good alternative to the actual rubber ducky in most of the cases (except the fact that it does not look like a pen drive)
@@ -21,7 +21,7 @@ This is for eduational purpose only
 # Arduino_rubber_ducky
 This repo contains all the firmware files needed to make a USB rubber ducky / hid device / bad usb with an arduino uno board
 You need to have Arduino IDE (latest recommended) From the official [Arduino Website](https://www.arduino.cc/en/software)
-You need to download ATMEL FLIP software [click here](https://www.microchip.com/en-us/development-tool/FLIP)
+You need to download ATMEL FLIP software [from here](https://www.microchip.com/en-us/development-tool/FLIP)
 >This software uploads the .hex firmware file to the arduino
 
 
